@@ -82,6 +82,7 @@ class _EventPageState extends State<EventPage> {
                   Navigator.pop(context);
                 },
               );
+
               Widget continueButton = TextButton(
                 child: Text(
                   "Update",
